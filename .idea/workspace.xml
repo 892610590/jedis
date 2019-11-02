@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c783de-2907-4e9e-a1f8-24138bf85ee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demoredis/src/main/java/com/example/demo/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jedis/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jedis/RedisListJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jedis/jedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../feign-demo/service-a-api/src/main/java/com/mingyin/api/ServiceAInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign-demo/service-a-api/src/main/java/com/mingyin/api/ServiceAInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../feign-demo/serviceA/src/main/java/com/mingyin/serviceA/ServiceAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign-demo/serviceA/src/main/java/com/mingyin/serviceA/ServiceAController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../feign-demo/serviceB/src/main/java/com/mingyin/serviceB/ServiceBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign-demo/serviceB/src/main/java/com/mingyin/serviceB/ServiceBController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jedis/hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jedis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jedis/jedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jedis/jedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jedis/jedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jedis/jedis.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,73 +21,86 @@
     <session id="1064059033">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.120" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="162" />
+          <entry key="java" value="594" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="162" />
+          <entry key="JAVA" value="594" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2134737077">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jedis/jedis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jedis/Article.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/main/java/jedis/RedisListJava.java" />
         <option value="$PROJECT_DIR$/src/main/java/jedis/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/jedis/jedis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jedis/hash.java" />
       </list>
     </option>
   </component>
@@ -107,8 +120,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
-    <option name="y" value="4" />
+    <option name="x" value="433" />
+    <option name="y" value="12" />
     <option name="width" value="930" />
     <option name="height" value="728" />
   </component>
@@ -118,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,14 +170,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571800959434" />
-    <property name="last_opened_file_path" value="F:/WEB前端框架/4/mall-master/mall_server" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572232115357" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -240,18 +253,22 @@
       <workItem from="1571796434805" duration="1515000" />
       <workItem from="1571798144731" duration="2977000" />
       <workItem from="1571884604214" duration="48000" />
-      <workItem from="1572169569064" duration="738000" />
+      <workItem from="1572169569064" duration="941000" />
+      <workItem from="1572222233439" duration="696000" />
+      <workItem from="1572223622001" duration="54000" />
+      <workItem from="1572225027637" duration="5402000" />
+      <workItem from="1572689534793" duration="2159000" />
+      <workItem from="1572700923471" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5278000" />
+    <option name="totallyTimeSpent" value="13792000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="432" y="4" width="930" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="433" y="12" width="930" height="728" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21724138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,16 +277,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22091062" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19730185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32715008" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32715008" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,26 +313,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/PostRepository.java" />
+    <entry file="file://$PROJECT_DIR$/jedis.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jedis/RedisListJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jedis/Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jedis/jedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="95">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jedis/hash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#678#694#0" expanded="true" />
+            <element signature="e#1410#1426#0" expanded="true" />
           </folding>
         </state>
       </provider>

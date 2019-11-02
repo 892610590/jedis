@@ -11,13 +11,14 @@ public class jedis {
         System.out.println("服务正在运行: "+jedis.ping());
 
     }
+    //存
     public Long Save(Article article,Jedis jedis){
         Long Id = jedis.incr("articles");
         String myPost = JSON.toJSONString(article);
         jedis.set("post:"+Id+":data",myPost);
         return Id;
     }
-    //获取
+    //取
     public Article Get(Long Id,Jedis jedis){
         String get = jedis.get("article:" + Id + ":data");
         jedis.incr("post:" + Id + ":page.view");
@@ -25,7 +26,7 @@ public class jedis {
         System.out.println("这是第"+Id+"篇文章"+parseObject);
         return parseObject;
     }
-    //修改
+    //改
     public Article update(Long Id,Jedis jedis){
         Article article = Get(Id, jedis);
         article.setTitle("update title");
@@ -34,7 +35,7 @@ public class jedis {
         System.out.println("修改完成");
         return article;
     }
-    //删除
+    //删
     public void delete(Long Id,Jedis jedis){
         jedis.del("post:" + Id + ":data");
         jedis.del("post:"+Id+":page.view");
